@@ -39,7 +39,7 @@ jobs:
               run: dotnet build Application/src/RazorPagesTestSample/RazorPagesTestSample.csproj
 
             - name: Run tests
-              run: dotnet test Application/test/Application.Tests/RazorPagesTestSample.Tests.csproj
+              run: dotnet test Application/test/RazorPagesTestSample.Tests/RazorPagesTestSample.Tests.csproj
 
     deploy:
         needs: build
