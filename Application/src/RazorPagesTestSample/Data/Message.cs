@@ -7,10 +7,10 @@ namespace RazorPagesTestSample.Data
     {
         public int Id { get; set; }
 
-        [Required]
-        [DataType(DataType.Text)]
-        [StringLength(200, ErrorMessage = "There's a 200 character limit on messages. Please shorten your message.")]
-        public string Text { get; set; }
-    }
-    #endregion
-}
+                [Required]
+                [DataType(DataType.Text)]
+                [StringLength(250, ErrorMessage = "There's a 250 character limit on messages. Please shorten your message.")]
+                public string Text { get; set; }
+            }
+            #endregion
+        }
