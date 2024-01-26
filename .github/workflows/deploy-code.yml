@@ -7,6 +7,8 @@ on:
     pull_request:
         paths:
             - 'Application/**'
+   
+
 
 env:
     registryName: t66cj4oiyvf44mpnpreg.azurecr.io
